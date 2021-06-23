@@ -1,7 +1,6 @@
 # laravel-table-view
 
-Laravel 5 Package for easily displaying table views for Eloquent Collections with search and sort functionality built in.
-
+Fork of larkinwhitaker/laravel-table-view's repo, made to work with later laravel versions
 Installation
 ----
 
