@@ -1,4 +1,4 @@
 suites:
   library_suite:
-    namespace: bernardosequeir\LaravelTableView
-    psr4_prefix: bernardosequeir\LaravelTableView
+    namespace: wrex\LaravelTableView
+    psr4_prefix: wrex\LaravelTableView

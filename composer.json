@@ -1,5 +1,5 @@
 {
-    "name": "bernardosequeir/laravel-table-view",
+    "name": "wrex/laravel-table-view",
     "description": "Laravel 5 Package for easily displaying table views for Eloquent Collections with search and sort functionality built in.",
     "keywords": [
         "search",
@@ -13,7 +13,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "bernardosequeir\\LaravelTableView\\": "src/"
+            "wrex\\LaravelTableView\\": "src/"
         }
     },
     "require": {
@@ -26,7 +26,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "bernardosequeir\\LaravelTableView\\Tests\\": "tests/"
+            "wrex\\LaravelTableView\\Tests\\": "tests/"
         }
     }
 }

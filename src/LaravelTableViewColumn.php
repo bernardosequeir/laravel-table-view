@@ -1,6 +1,6 @@
 <?php
 
-namespace bernardosequeir\LaravelTableView;
+namespace wrex\LaravelTableView;
 
 class LaravelTableViewColumn
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace bernardosequeir\LaravelTableView\Presenters;
+namespace wrex\LaravelTableView\Presenters;
 
-use bernardosequeir\LaravelTableView\LaravelTableView;
-use bernardosequeir\LaravelTableView\Presenters\RoutePresenter;
+use wrex\LaravelTableView\LaravelTableView;
+use wrex\LaravelTableView\Presenters\RoutePresenter;
 
 use Request;
 

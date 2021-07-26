@@ -1,24 +1,24 @@
 <?php
 
-namespace bernardosequeir\LaravelTableView\Presenters;
+namespace wrex\LaravelTableView\Presenters;
 
-use bernardosequeir\LaravelTableView\LaravelTableView;
+use wrex\LaravelTableView\LaravelTableView;
 
-use bernardosequeir\LaravelTableView\Presenters\TableViewTitlePresenter;
-use bernardosequeir\LaravelTableView\Presenters\PerPageDropdownPresenter;
-use bernardosequeir\LaravelTableView\Presenters\SortArrowsPresenter;
+use wrex\LaravelTableView\Presenters\TableViewTitlePresenter;
+use wrex\LaravelTableView\Presenters\PerPageDropdownPresenter;
+use wrex\LaravelTableView\Presenters\SortArrowsPresenter;
 
 use Request;
 
 class LaravelTableViewPresenter
 {
 	/**
-	 * @var bernardosequeir\LaravelTableView\LaravelTableView
+	 * @var wrex\LaravelTableView\LaravelTableView
 	 */
 	private $laravelTableView;
 
 	/**
-	 * @param bernardosequeir\LaravelTableView\LaravelTableView $laravelTableView
+	 * @param wrex\LaravelTableView\LaravelTableView $laravelTableView
 	 * @return void
 	 */
 	public function __construct(LaravelTableView $laravelTableView)

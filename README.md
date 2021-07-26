@@ -7,21 +7,21 @@ Installation
 
 Update your `composer.json` file to include this package as a dependency
 ```json
-"bernardosequeir/laravel-table-view": "dev-master"
+"wrex/laravel-table-view": "dev-master"
 ```
 
 
 Register the TableView service provider by adding it to the providers array in the `config/app.php` file.
 ```php
 'providers' => array(
-    bernardosequeir\LaravelTableView\LaravelTableViewServiceProvider::class
+    wrex\LaravelTableView\LaravelTableViewServiceProvider::class
 )
 ```
 
 If you want you can alias the TableView facade by adding it to the aliases array in the `config/app.php` file.
 ```php
 'aliases' => array(
-        'TableView' => bernardosequeir\LaravelTableView\Facades\TableView::class,
+        'TableView' => wrex\LaravelTableView\Facades\TableView::class,
 )
 ```
 
@@ -224,7 +224,7 @@ Edit app/Http/Kernel.php, adding a reference to the Middleware
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
 
         // Laravel TableView Middleware
-        'table-view.storage' => \bernardosequeir\LaravelTableView\Middleware\TableViewCookieStorage::class,
+        'table-view.storage' => \wrex\LaravelTableView\Middleware\TableViewCookieStorage::class,
     ];
 ```
 

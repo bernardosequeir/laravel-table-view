@@ -1,6 +1,6 @@
 <?php
 
-namespace bernardosequeir\LaravelTableView\Repositories;
+namespace wrex\LaravelTableView\Repositories;
 
 use Request;
 // use Illuminate\Cookie\Cookie;
@@ -23,7 +23,7 @@ class SortRepository
 	private $sortAscending;
 
 	/**
-	 * @param \bernardosequeir\LaravelTableView\LaravelTableViewColumn $column
+	 * @param \wrex\LaravelTableView\LaravelTableViewColumn $column
 	 * @return void
 	 */
 	public function setDefault($column)

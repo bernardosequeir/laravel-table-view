@@ -1,6 +1,6 @@
 <?php
 
-namespace bernardosequeir\LaravelTableView\CookieStorage;
+namespace wrex\LaravelTableView\CookieStorage;
 
 class LookInStorage
 {
